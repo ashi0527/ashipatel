@@ -14,7 +14,7 @@
       <li><a href="Travel.html">Travel</a></li>
       <li><a href="Goals-Hobbies.html">Hobbies/Goals</a></li>
     </ul>
-    <ul>
+
   <div class"container" <div class="nav">
 
   </nav>
@@ -27,13 +27,83 @@
   <h1> About Me </h1>
 
 <div class="About-me">
-  <p>I am Ashi Patel. I’m in the 10th grade and I go to Madison academic high school in Jackson Tennessee. I was born in Atlanta Georgia on May 27th 2003. My favorite animals are dogs and elephants. My favorite thing to do is eat and watch tv. I have one brother who is 2 years younger than me. My favorite sport is tennis and badminton. I also love swimming. I am Indian and the last went time I went to Indian was 5 years ago. I speak 2 languages English and Guajarati. I love traveling. I have traveled to many places like California, Canada, Chicago, New jersey and more. </p>
+  <p>I am Ashi Patel. I’m in the 10th grade and I go to Madison academic high school in Jackson Tennessee. I was born in Atlanta Georgia on May 27th 2003. My favorite animals are dogs and elephants. My favorite thing to do is eat and watch tv. I have one brother who is 2 years younger than me. I have a puppy who's name is Jax and he's a 2 month old huskey. I love him so much he's my everything. My favorite sport is tennis and badminton. I also love swimming. I am Indian and the last went time I went to Indian was 5 years ago. I speak 2 languages English and Guajarati. I love traveling. I have traveled to many places like California, Canada, Chicago, New jersey and more. </p>
 </div>
 
-<img class="img-water rafting pic" src="./images/white water rafting.jpg">
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="./images/white water rafting.jpg"  height= "700px" width="1000px">
+</div>
+
+<div class="mySlides fade">
+<img src="./images/Jax the cutue.jpg" height= "700px" width="1000px">
+</div>
+
+<div class="mySlides fade">
+  <img src="./images/me in california.jpg"  height= "700px" width="1000px">
+</div>
+
+<div class="mySlides fade">
+  <img src="./images/me and mom at garba.jpg"  height= "700px" width="1000px">
+</div>
+
+<div class="mySlides fade">
+  <img src="./images/my picture.jpg"  height= "700px" width="1000px">
+</div>
+
+<div class="mySlides fade">
+  <img src="./images/HOLLYWOOD.jpg"  height= "700px" width="1000px">
+</div>
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
 
 </body>
 
-</ul>
 
 </html>
