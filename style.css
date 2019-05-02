@@ -45,7 +45,7 @@ h1 {
   color: #660066;
   margin-top: 17px;
   margin-left: 750px;
-
+  font: oblique 40px/50px Georgia, serif;
 }
 
 .About-me {
@@ -141,4 +141,20 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+h2 {
+  font-size: 40px;
+  color: #660066;
+  margin-top: 17px;
+  margin-left: 860px;
+  font: oblique 40px/50px Georgia, serif;
+
+}
+
+.travel-paragraph {
+  margin-top: 20px;
+  font-size: 23px;
+  font-style: italic;
+  text-align: center;
 }
