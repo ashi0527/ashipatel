@@ -31,7 +31,7 @@ line-height: 100px;
 ul li a{
 
 font-family: arial;
-color: #1e1e1e;
+color:  #660066;
 padding: 65px;
 font-size: 25px;
 }
@@ -153,6 +153,31 @@ h2 {
 }
 
 .travel-paragraph {
+  margin-top: 20px;
+  font-size: 23px;
+  font-style: italic;
+  text-align: center;
+}
+
+.cali{
+  margin-left: 300px;
+}
+
+.footer img {
+  padding: 15px;
+
+}
+
+h5{
+  font-size: 40px;
+  color: #660066;
+  margin-top: 17px;
+  margin-left: 800px;
+  font: oblique 40px/50px Georgia, serif;
+
+}
+
+.Goals-paragraph {
   margin-top: 20px;
   font-size: 23px;
   font-style: italic;
