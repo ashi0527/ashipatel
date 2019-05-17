@@ -183,3 +183,19 @@ h5{
   font-style: italic;
   text-align: center;
 }
+
+.tennis{
+  height: 27%;
+  width: 27%;
+  margin-left: 50px;
+}
+
+.swim{
+  height: 27%;
+  width: 27%;
+  margin-left: 75px;
+}
+
+.jax{
+  margin-left: 105px;
+}
