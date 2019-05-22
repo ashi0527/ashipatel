@@ -1,0 +1,91 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration:none;
+}
+
+body{
+  background-color: white;
+}
+
+nav {
+width: 100%;
+height: 100px;
+background-color: #ccccff;
+
+}
+
+ul{
+margin-left: 40;
+border-style: solid;
+border-width: 2px;
+color: #660066;
+}
+
+ul li {
+display: inline-block;
+line-height: 100px;
+}
+
+
+ul li a{
+
+font-family: arial;
+color:  #660066;
+padding: 65px;
+font-size: 25px;
+}
+
+ul li a:hover {
+  color: white;
+}
+
+.Candy-paragraph{
+  margin-top: 20px;
+  font-size: 23px;
+  font-style: italic;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  color: #660066;
+  margin-top: 17px;
+  margin-left: 630px;
+  font: oblique 40px/50px Georgia, serif;
+}
+
+.Chocolate {
+margin-left: 280px;
+}
+
+.Chocolate-second{
+margin-left: 280px;
+}
+
+.Chocolate-third{
+  margin-left: 105px;
+}
+
+.Chocolate-M{
+
+  margin-left: 300px;
+}
+
+.Chocolate-P{
+margin-top: 50px;
+  margin-left: 300px;
+}
+
+.Chocolate-H{
+  margin-left: 300px;
+}
+
+h5{
+  font-size: 40px;
+  color: #660066;
+  margin-top: 17px;
+  margin-left: 800px;
+  font: oblique 40px/50px Georgia, serif;
+
+}
